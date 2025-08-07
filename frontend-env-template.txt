@@ -1,0 +1,17 @@
+# Frontend Environment Variables (.env file)
+# Copy this content to your .env file in the root directory
+
+# Azure AD Configuration
+VITE_AZURE_AD_CLIENT_ID=your_azure_ad_client_id_here
+VITE_AZURE_AD_TENANT_ID=your_azure_ad_tenant_id_here
+VITE_AZURE_AD_REDIRECT_URI=http://localhost:5173
+VITE_AZURE_AD_POST_LOGOUT_REDIRECT_URI=http://localhost:5173
+VITE_AZURE_AD_API_SCOPE=your_azure_ad_api_scope_here
+
+# Backend API Configuration
+VITE_API_BASE_URL=https://ecg-nms-backend.azurewebsites.net
+
+# Name mapping configuration (optional)
+VITE_NAME_MAPPING_STRATEGY=app_first
+VITE_AUTO_CORRECT_NAMES=true
+VITE_SHOW_NAME_CORRECTIONS=true 
